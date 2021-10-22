@@ -4,14 +4,16 @@
 using namespace std;
 using namespace cv;
 
+// String filename = "mydata.xml";
+// String filename = "mydata.yml";
 String filename = "mydata.json";
 void writeData();
 void readData();
 
 int main() 
 {
-	writeData();
-
+	// writeData();
+	readData();
 	return 0;
 }
 
